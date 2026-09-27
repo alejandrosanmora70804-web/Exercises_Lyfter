@@ -1,5 +1,5 @@
 class Node:
-    
+
     def __init__(self, data, left=None, right=None):
         self.data = data
         self.left = left
@@ -37,9 +37,6 @@ class BinaryTree:
 
 
     def is_empty(self):
-        """
-        Returns True if the tree has no nodes.
-        """
         return self.root is None
 
 
